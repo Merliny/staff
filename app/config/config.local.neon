@@ -1,0 +1,10 @@
+parameters:
+
+
+nette:
+	database:
+		dsn: 'mysql:host=localhost;dbname=staff'
+		user: 'root'
+		password: '000'
+		options:
+			lazy: yes
