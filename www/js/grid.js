@@ -88,6 +88,7 @@ $(function(){
                     dataType: "json",
                     method: "post",
                     success: function(data) {
+                        $('.ui-autocomplete').css({'position':'absolute','top':$(".grid-autocomplete").position().top+$(".grid-autocomplete").innerHeight()+4});
                         response(data.payload);
                     }
                 });
